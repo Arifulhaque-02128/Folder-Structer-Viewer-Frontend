@@ -21,10 +21,6 @@ export default function DeleteFolderModal({ isOpen, folderName, onClose, onConfi
       >
         <h2 className="text-xl font-semibold mb-4">Delete <span className="text-red-600">{folderName}</span>?</h2>
         
-        {/* <p className="text-gray-600 mb-6">
-          Are you sure you want to delete <strong>&quot;{folderName}&quot;</strong>? 
-          This will also delete all subfolders inside it. This action cannot be undone.
-        </p> */}
         
         <div className="flex justify-end gap-2">
           <button
